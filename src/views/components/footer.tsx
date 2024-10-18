@@ -5,7 +5,7 @@ export default function Footer() {
   const current_year = new Date().getFullYear();
 
   return (
-    <div className="bg-custom-orange w-full fixed bottom-0">
+    <div className="bg-custom-orange w-full bottom-0">
       <div className="text-center py-4">
         <Link href={"/"} className="">
           Privacy Policy
