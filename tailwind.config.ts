@@ -12,7 +12,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "custom-orange": "#fa983a",
+        "custom-orange": "#fa5f0b",
         "custom-melon": "#f8c291",
       },
     },

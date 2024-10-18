@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import Logo from "/public/images/Logo.jpg";
 
 export default function NavBar() {
   return (
@@ -7,9 +9,19 @@ export default function NavBar() {
       <nav>
         <div className="h-10vh flex justify-between z-50 text-black lg:py-5 px-20 py-4">
           <div className="flex items-center flex-1 text-[18px]">
-            <Link href={"/"} className="font-bold">
-              Logo
-            </Link>
+            <div>
+              <Link href={"/"} className="font-bold">
+                <Image
+                  src={Logo} // Use the correct path
+                  alt="Logo Img"
+                  width={80} // Set width
+                  height={80} // Set height
+                  className="mr-2" // Optional styling
+                />
+              </Link>
+            </div>
+
+            <div className="font-bold">Lomona Mutual Funds</div>
           </div>
 
           <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
