@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <div className="">
-      <nav className="w-full top-0 left-0 right-0 bg-custom-orange fixed">
+    <div>
+      <nav className="w-full top-0 left-0 right-0 bg-custom-orange fixed z-index ">
         <div className="flex justify-between text-black lg:py-5 px-10 py-4">
           <div className="flex items-center flex-1 text-[18px]">
             <div>

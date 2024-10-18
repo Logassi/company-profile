@@ -3,7 +3,7 @@ export default function ProductsAndServicesView() {
     <div>
       <section
         id="Aezakmi"
-        className="text-white h-screen bg-black text-center flex"
+        className="text-white h-screen bg-white text-center flex"
       >
         <h1 className="m-auto text-7xl text-custom-orange font-bold">
           Aezakmi
@@ -17,7 +17,7 @@ export default function ProductsAndServicesView() {
       </section>
       <section
         id="Baguvix"
-        className="text-white h-screen bg-black text-center flex"
+        className="text-white h-screen bg-white text-center flex"
       >
         <h1 className="m-auto text-7xl text-custom-orange font-bold">
           Baguvix

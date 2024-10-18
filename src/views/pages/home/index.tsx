@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function HomeView() {
   return (
-    <div className="">
+    <div>
       <section className="bg-cover bg-center">
         <div className="container mx-auto px-6 py-12">
           <div className="flex flex-col-reverse md:flex-row items-center">
@@ -28,8 +28,8 @@ export default function HomeView() {
               <Image
                 src="/images/Hero_Section.jpg" // Use the correct path
                 alt="Hero Img"
-                width={80} // Set width
-                height={80} // Set height
+                height={900}
+                width={1600}
                 className="mr-2" // Optional styling
               />
             </div>
@@ -56,8 +56,8 @@ export default function HomeView() {
               <Image
                 src="/images/Hero_Section.jpg" // Use the correct path
                 alt="Hero Img"
-                width={80} // Set width
-                height={80} // Set height
+                height={900}
+                width={1600}
                 className="mr-2" // Optional styling
               />
             </div>
